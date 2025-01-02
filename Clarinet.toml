@@ -1,0 +1,29 @@
+[project]
+name = 'Space-Weather-Network'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.alert-system]
+path = 'contracts/alert-system.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.data-collection]
+path = 'contracts/data-collection.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.infrastructure-integration]
+path = 'contracts/infrastructure-integration.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
