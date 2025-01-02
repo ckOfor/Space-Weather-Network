@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/data-collection.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.infrastructure-integration]
+path = 'contracts/infrastructure-integration.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
